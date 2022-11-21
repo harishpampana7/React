@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Todos from './components/Todo';
 
 function App() {
-  const arr = ["wake up" , "in", "Morning"];
+  const arr = ["Wake up" , "Have Tea", "Attend Class"];
   return (
     <div className="App">
       {/* <h1 style={{
@@ -16,24 +17,17 @@ function App() {
       </h1>
       <input placeholder='test' /> */}
 
-
       {
-        arr.map((e)=>(
-          <Todos num={e}/>
+        arr.map((e) => (
+          <Todos num = {e}>
+            <h1>test</h1>
+          </Todos>
         ))
       }
-
-      {Todos()}
-      
-      <Todos/>
-      <Todos/>
     </div>
   );
 }
 
-function Todos(num){
-  return <h1> Todo :  </h1>
-}
 
 //for loop is a decleraction 
 // in react { it accepts only expression}
