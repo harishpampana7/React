@@ -13,7 +13,16 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ["style-loader", "css-loader"],
-            }
-        ]
-    }
+            },
+            {
+                test: /\.js$/,
+                use: ["babel-loader"],
+            },
+
+        ],
+    },
 };
+
+
+// @babel/core @babel/node @babel/preset-env @babel/preset-react bable-loader
+   
