@@ -1,0 +1,62 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn React"
+    },
+    {
+      "id": 2,
+      "title": "Learn Vue"
+    },
+    {
+      "title": "Learn DOM",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Harish",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "Ram",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Ram",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "sita",
+      "status": false,
+      "id": 8
+    },
+    {
+      "title": "krishna",
+      "status": false,
+      "id": 9
+    },
+    {
+      "title": "radha",
+      "status": false,
+      "id": 10
+    },
+    {
+      "title": "radhaKrishna",
+      "status": false,
+      "id": 11
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "title": "User1"
+    },
+    {
+      "id": 2,
+      "title": "User2"
+    }
+  ]
+}
