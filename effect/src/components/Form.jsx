@@ -16,7 +16,7 @@ export const Form = () => {
 
     useEffect(() => {
         console.log("Third Effect");
-    }, [age]);
+    }, [counter, age]);
 
     console.log(" After Useeffect");
 
