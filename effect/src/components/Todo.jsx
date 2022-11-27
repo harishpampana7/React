@@ -11,8 +11,9 @@ export const Todo =() => {
     }, [page]);
 
     const getTodo = () => {
-        fetch(`http://localhost:3001/todos?_page=${page}&_limit=3`)
+        fetch(`http://localhost:3001/todos?_page=${page}&_limit=3`) 
         .then((d) => d.json())
+        
         .then((res) => {
             // console.log(res);
             setTodo(res);
@@ -53,7 +54,7 @@ export const Todo =() => {
 
     {/* pagination */}
             <button disabled={page === 1} onClick={() => setPage(page-1)}>Prev</button>
-            <button onClick={() => setPage(page+1)}>Next</button>
+            <button  onClick={() => setPage(page+1)}>Next</button>
         </div>
     );
 };

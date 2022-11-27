@@ -27,5 +27,5 @@ export const Form = () => {
                 setCounter(counter+1);
             }}>Add 1</button>
         </div>
-    )
-}
+    );
+};

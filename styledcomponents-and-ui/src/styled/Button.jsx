@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-//CSS Syntax
+    //CSS Syntax
 
     color: ${(props) => (props.theme === "light" ? "#fe7e6b"  : "#FEECE9")};
     background: ${(props) => (props.theme === "light" ? "#FEECE9"  : "#fe7e6b")};
@@ -13,7 +13,7 @@ export const Button = styled.button`
         box-shadow: -1px 2px 8px #fe7e6b;
     }
 
-    `;
+`;
 
 export const Div = styled.div`
     display:flex;
@@ -41,4 +41,11 @@ export const Form = styled.form`
     background-color: aliceblue;
     border: 0px ;
 
+`;
+
+export const Para = styled.h1`
+    background-color:red;
+    width:100%;
+    height:100%;
+    
 `;
