@@ -41,7 +41,7 @@ function App() {
           <button onClick={() => changeCount(1)}>Add 1</button>
           <button onClick={() => changeCount(-1)}>sub 1</button>
           {/* // show even r odd */}
-          <div> Counter is {count %2 === 0 ? "Even" : "Odd"}</div>
+          <div> Counter is {count % 2 === 0 ? "Even" : "Odd"}</div>
 
         </div>
     </div>

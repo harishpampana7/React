@@ -6,11 +6,12 @@ export const Todo =() => {
     const [todo, setTodo ] = useState([]);
     const [page, setPage ] = useState(1);
 
+    console.log(page.length);
     useEffect(() => {
         getTodo();
     }, [page]);
 
-    const getTodo = () => {
+    const getTodo = () => {        // in
         fetch(`http://localhost:3001/todos?_page=${page}&_limit=3`) 
         .then((d) => d.json())
         
@@ -20,7 +21,7 @@ export const Todo =() => {
         });
     }
 
-    const addTodo = () => {
+    const addTodo = () => {     // out
         const payload = {
             title: text,
             status: false,
@@ -37,6 +38,9 @@ export const Todo =() => {
         })
          // setTodos([...todos, text]);
     };
+
+    console.log(todo.length);
+     
 
     return (
         <div>

@@ -24,6 +24,7 @@ export default App;
 // function App() {
 
 //   const [data , setData] = useState("");
+
 //   const handelData = (name) => {
 //     console.log("patrent received:", name );
 //     setData(name);
